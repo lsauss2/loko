@@ -13,6 +13,15 @@
 		CE4C108B1FAD8E040004F9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4C108A1FAD8E040004F9F1 /* Assets.xcassets */; };
 		CE4C108E1FAD8E040004F9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4C108C1FAD8E040004F9F1 /* LaunchScreen.storyboard */; };
 		CE4C109B1FAD93DD0004F9F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE4C109A1FAD93DD0004F9F1 /* GoogleService-Info.plist */; };
+		CE4C109E1FAD99BE0004F9F1 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE4C109C1FAD99BE0004F9F1 /* Montserrat-Regular.ttf */; };
+		CE4C109F1FAD99BE0004F9F1 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE4C109D1FAD99BE0004F9F1 /* Montserrat-Bold.ttf */; };
+		CE4C10A31FAD9EC10004F9F1 /* roundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10A21FAD9EC10004F9F1 /* roundButton.swift */; };
+		CE4C10A51FAD9ED80004F9F1 /* mainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10A41FAD9ED80004F9F1 /* mainButton.swift */; };
+		CE4C10A71FAD9EEC0004F9F1 /* customTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10A61FAD9EEC0004F9F1 /* customTextField.swift */; };
+		CE4C10A91FADA5440004F9F1 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10A81FADA5440004F9F1 /* SignUpVC.swift */; };
+		CE4C10AB1FADA7380004F9F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10AA1FADA7380004F9F1 /* Constants.swift */; };
+		CE4C10AD1FADAB2F0004F9F1 /* BookMarksListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10AC1FADAB2F0004F9F1 /* BookMarksListVC.swift */; };
+		CE4C10AF1FADADAC0004F9F1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10AE1FADADAC0004F9F1 /* File.swift */; };
 		F1C9AF9AE8286BEA18D00338 /* Pods_Loko.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70215F409513DCDF81C2469 /* Pods_Loko.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +36,16 @@
 		CE4C108D1FAD8E040004F9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4C108F1FAD8E040004F9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4C109A1FAD93DD0004F9F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE4C109C1FAD99BE0004F9F1 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		CE4C109D1FAD99BE0004F9F1 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		CE4C10A21FAD9EC10004F9F1 /* roundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundButton.swift; sourceTree = "<group>"; };
+		CE4C10A41FAD9ED80004F9F1 /* mainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainButton.swift; sourceTree = "<group>"; };
+		CE4C10A61FAD9EEC0004F9F1 /* customTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTextField.swift; sourceTree = "<group>"; };
+		CE4C10A81FADA5440004F9F1 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		CE4C10AA1FADA7380004F9F1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE4C10AC1FADAB2F0004F9F1 /* BookMarksListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarksListVC.swift; sourceTree = "<group>"; };
+		CE4C10AE1FADADAC0004F9F1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CE4C10B01FADB5CB0004F9F1 /* Loko.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Loko.entitlements; sourceTree = "<group>"; };
 		F702D489377234EE31079003 /* Pods-Loko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loko.release.xcconfig"; path = "Pods/Target Support Files/Pods-Loko/Pods-Loko.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +99,7 @@
 		CE4C10821FAD8E040004F9F1 /* Loko */ = {
 			isa = PBXGroup;
 			children = (
+				CE4C10B01FADB5CB0004F9F1 /* Loko.entitlements */,
 				CE4C10991FAD8EA20004F9F1 /* Resources */,
 				CE4C10981FAD8E9D0004F9F1 /* Utilities */,
 				CE4C10971FAD8E350004F9F1 /* Controller */,
@@ -98,7 +118,9 @@
 		CE4C10951FAD8E280004F9F1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CE4C10851FAD8E040004F9F1 /* LoginVC.swift */,
+				CE4C10A21FAD9EC10004F9F1 /* roundButton.swift */,
+				CE4C10A41FAD9ED80004F9F1 /* mainButton.swift */,
+				CE4C10A61FAD9EEC0004F9F1 /* customTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -106,6 +128,7 @@
 		CE4C10961FAD8E2E0004F9F1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CE4C10AE1FADADAC0004F9F1 /* File.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -113,6 +136,9 @@
 		CE4C10971FAD8E350004F9F1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CE4C10851FAD8E040004F9F1 /* LoginVC.swift */,
+				CE4C10A81FADA5440004F9F1 /* SignUpVC.swift */,
+				CE4C10AC1FADAB2F0004F9F1 /* BookMarksListVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -120,6 +146,7 @@
 		CE4C10981FAD8E9D0004F9F1 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CE4C10AA1FADA7380004F9F1 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -127,6 +154,8 @@
 		CE4C10991FAD8EA20004F9F1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE4C109D1FAD99BE0004F9F1 /* Montserrat-Bold.ttf */,
+				CE4C109C1FAD99BE0004F9F1 /* Montserrat-Regular.ttf */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -167,6 +196,11 @@
 					CE4C107F1FAD8E040004F9F1 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -195,7 +229,9 @@
 			files = (
 				CE4C108E1FAD8E040004F9F1 /* LaunchScreen.storyboard in Resources */,
 				CE4C109B1FAD93DD0004F9F1 /* GoogleService-Info.plist in Resources */,
+				CE4C109F1FAD99BE0004F9F1 /* Montserrat-Bold.ttf in Resources */,
 				CE4C108B1FAD8E040004F9F1 /* Assets.xcassets in Resources */,
+				CE4C109E1FAD99BE0004F9F1 /* Montserrat-Regular.ttf in Resources */,
 				CE4C10891FAD8E040004F9F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,7 +291,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4C10A51FAD9ED80004F9F1 /* mainButton.swift in Sources */,
 				CE4C10861FAD8E040004F9F1 /* LoginVC.swift in Sources */,
+				CE4C10A71FAD9EEC0004F9F1 /* customTextField.swift in Sources */,
+				CE4C10A31FAD9EC10004F9F1 /* roundButton.swift in Sources */,
+				CE4C10AB1FADA7380004F9F1 /* Constants.swift in Sources */,
+				CE4C10A91FADA5440004F9F1 /* SignUpVC.swift in Sources */,
+				CE4C10AD1FADAB2F0004F9F1 /* BookMarksListVC.swift in Sources */,
+				CE4C10AF1FADADAC0004F9F1 /* File.swift in Sources */,
 				CE4C10841FAD8E040004F9F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +437,7 @@
 			baseConfigurationReference = 225C1FA0A14ABA7E9B8A828F /* Pods-Loko.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Loko/Loko.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QWSV26QYZU;
 				INFOPLIST_FILE = Loko/Info.plist;
@@ -410,6 +454,7 @@
 			baseConfigurationReference = F702D489377234EE31079003 /* Pods-Loko.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Loko/Loko.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QWSV26QYZU;
 				INFOPLIST_FILE = Loko/Info.plist;
