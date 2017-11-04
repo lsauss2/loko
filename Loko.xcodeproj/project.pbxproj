@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE4C10841FAD8E040004F9F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10831FAD8E040004F9F1 /* AppDelegate.swift */; };
-		CE4C10861FAD8E040004F9F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10851FAD8E040004F9F1 /* ViewController.swift */; };
+		CE4C10861FAD8E040004F9F1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10851FAD8E040004F9F1 /* LoginVC.swift */; };
 		CE4C10891FAD8E040004F9F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4C10871FAD8E040004F9F1 /* Main.storyboard */; };
 		CE4C108B1FAD8E040004F9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4C108A1FAD8E040004F9F1 /* Assets.xcassets */; };
 		CE4C108E1FAD8E040004F9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4C108C1FAD8E040004F9F1 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		CE4C10801FAD8E040004F9F1 /* Loko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4C10831FAD8E040004F9F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE4C10851FAD8E040004F9F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE4C10851FAD8E040004F9F1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CE4C10881FAD8E040004F9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE4C108A1FAD8E040004F9F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4C108D1FAD8E040004F9F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,54 @@
 		CE4C10821FAD8E040004F9F1 /* Loko */ = {
 			isa = PBXGroup;
 			children = (
+				CE4C10991FAD8EA20004F9F1 /* Resources */,
+				CE4C10981FAD8E9D0004F9F1 /* Utilities */,
+				CE4C10971FAD8E350004F9F1 /* Controller */,
+				CE4C10961FAD8E2E0004F9F1 /* Model */,
+				CE4C10951FAD8E280004F9F1 /* View */,
 				CE4C10831FAD8E040004F9F1 /* AppDelegate.swift */,
-				CE4C10851FAD8E040004F9F1 /* ViewController.swift */,
 				CE4C10871FAD8E040004F9F1 /* Main.storyboard */,
 				CE4C108A1FAD8E040004F9F1 /* Assets.xcassets */,
 				CE4C108C1FAD8E040004F9F1 /* LaunchScreen.storyboard */,
 				CE4C108F1FAD8E040004F9F1 /* Info.plist */,
 			);
 			path = Loko;
+			sourceTree = "<group>";
+		};
+		CE4C10951FAD8E280004F9F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE4C10851FAD8E040004F9F1 /* LoginVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE4C10961FAD8E2E0004F9F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE4C10971FAD8E350004F9F1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE4C10981FAD8E9D0004F9F1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CE4C10991FAD8EA20004F9F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4C10861FAD8E040004F9F1 /* ViewController.swift in Sources */,
+				CE4C10861FAD8E040004F9F1 /* LoginVC.swift in Sources */,
 				CE4C10841FAD8E040004F9F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
