@@ -22,6 +22,9 @@
 		CE4C10AB1FADA7380004F9F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10AA1FADA7380004F9F1 /* Constants.swift */; };
 		CE4C10AD1FADAB2F0004F9F1 /* BookMarksListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10AC1FADAB2F0004F9F1 /* BookMarksListVC.swift */; };
 		CE4C10AF1FADADAC0004F9F1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10AE1FADADAC0004F9F1 /* File.swift */; };
+		CE4C10B21FADCEBF0004F9F1 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4C10B11FADCEBF0004F9F1 /* TransitionManager.swift */; };
+		CEF9F3C71FB0918A00A163A5 /* WalkthroughVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9F3C61FB0918A00A163A5 /* WalkthroughVC.swift */; };
+		CEF9F3C91FB0933100A163A5 /* walkthroughCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9F3C81FB0933100A163A5 /* walkthroughCell.swift */; };
 		F1C9AF9AE8286BEA18D00338 /* Pods_Loko.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70215F409513DCDF81C2469 /* Pods_Loko.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +49,9 @@
 		CE4C10AC1FADAB2F0004F9F1 /* BookMarksListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarksListVC.swift; sourceTree = "<group>"; };
 		CE4C10AE1FADADAC0004F9F1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		CE4C10B01FADB5CB0004F9F1 /* Loko.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Loko.entitlements; sourceTree = "<group>"; };
+		CE4C10B11FADCEBF0004F9F1 /* TransitionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		CEF9F3C61FB0918A00A163A5 /* WalkthroughVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughVC.swift; sourceTree = "<group>"; };
+		CEF9F3C81FB0933100A163A5 /* walkthroughCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walkthroughCell.swift; sourceTree = "<group>"; };
 		F702D489377234EE31079003 /* Pods-Loko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loko.release.xcconfig"; path = "Pods/Target Support Files/Pods-Loko/Pods-Loko.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,6 +127,7 @@
 				CE4C10A21FAD9EC10004F9F1 /* roundButton.swift */,
 				CE4C10A41FAD9ED80004F9F1 /* mainButton.swift */,
 				CE4C10A61FAD9EEC0004F9F1 /* customTextField.swift */,
+				CEF9F3C81FB0933100A163A5 /* walkthroughCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -139,6 +146,7 @@
 				CE4C10851FAD8E040004F9F1 /* LoginVC.swift */,
 				CE4C10A81FADA5440004F9F1 /* SignUpVC.swift */,
 				CE4C10AC1FADAB2F0004F9F1 /* BookMarksListVC.swift */,
+				CEF9F3C61FB0918A00A163A5 /* WalkthroughVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				CE4C10AA1FADA7380004F9F1 /* Constants.swift */,
+				CE4C10B11FADCEBF0004F9F1 /* TransitionManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -293,10 +302,13 @@
 			files = (
 				CE4C10A51FAD9ED80004F9F1 /* mainButton.swift in Sources */,
 				CE4C10861FAD8E040004F9F1 /* LoginVC.swift in Sources */,
+				CEF9F3C71FB0918A00A163A5 /* WalkthroughVC.swift in Sources */,
 				CE4C10A71FAD9EEC0004F9F1 /* customTextField.swift in Sources */,
 				CE4C10A31FAD9EC10004F9F1 /* roundButton.swift in Sources */,
 				CE4C10AB1FADA7380004F9F1 /* Constants.swift in Sources */,
 				CE4C10A91FADA5440004F9F1 /* SignUpVC.swift in Sources */,
+				CE4C10B21FADCEBF0004F9F1 /* TransitionManager.swift in Sources */,
+				CEF9F3C91FB0933100A163A5 /* walkthroughCell.swift in Sources */,
 				CE4C10AD1FADAB2F0004F9F1 /* BookMarksListVC.swift in Sources */,
 				CE4C10AF1FADADAC0004F9F1 /* File.swift in Sources */,
 				CE4C10841FAD8E040004F9F1 /* AppDelegate.swift in Sources */,

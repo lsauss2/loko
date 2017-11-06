@@ -15,6 +15,8 @@ class LoginVC: UIViewController {
     
     @IBOutlet weak var emailTxtField: customTextField!
     @IBOutlet weak var passwordTxtField: customTextField!
+    
+    let transitionManager = TransitionManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,9 +26,10 @@ class LoginVC: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        if let _ = KeychainWrapper.standard.string(forKey: KEY_UID) {
+        
+        /* if let _ = KeychainWrapper.standard.string(forKey: KEY_UID) {
             performSegue(withIdentifier: TO_BOOKMARKS_LIST_FROM_LOG_IN, sender: self)
-        }
+        }*/
     }
 
     override func didReceiveMemoryWarning() {
@@ -62,6 +65,7 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func signUpBtnTapped(_ sender: Any) {
+        
         performSegue(withIdentifier: TO_SIGN_UP, sender: self)
     }
     
@@ -69,6 +73,17 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func twitterBtnTapped(_ sender: Any) {
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // this gets a reference to the screen that we're about to transition to
+        let toViewController = segue.destination as UIViewController
+        
+        // instead of using the default transition animation, we'll ask
+        // the segue to use our custom TransitionManager object to manage the transition animation
+        toViewController.transitioningDelegate = self.transitionManager
+        
     }
     
     func setupViews(){

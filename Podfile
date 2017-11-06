@@ -9,5 +9,6 @@ target 'Loko' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'SwiftKeychainWrapper'
+  pod 'Hero'
 
 end

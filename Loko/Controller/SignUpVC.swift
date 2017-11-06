@@ -16,6 +16,8 @@ class SignUpVC: UIViewController {
     @IBOutlet weak var emailTxtField: customTextField!
     @IBOutlet weak var passwordTxtField: customTextField!
     @IBOutlet weak var confirmPasswordTxtField: customTextField!
+    
+    let transitionManager = TransitionManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +42,7 @@ class SignUpVC: UIViewController {
                     print(error.debugDescription)
                 } else {
                     print("User has been created")
+                    self.performSegue(withIdentifier: TO_WALKTHROUGH_FRON_SIGN_UP, sender: self)
                 }
                 
             })
@@ -62,6 +65,10 @@ class SignUpVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let toViewController = segue.destination as UIViewController
+        toViewController.transitioningDelegate = self.transitionManager
+    }
     
     
     
